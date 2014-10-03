@@ -8,13 +8,39 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+
+
+	<div class="lightbox" id="hidden">
+		<div id="popup">
+			<div class="form">
+				<span>CREATE A CHARACTER</span>
+				<form id='createForm'>
+					<input type="text" name='enterName' id='enterName' placeholder='Enter Character Name'>
+					<button id='randomize'>Create Random</button>
+					<button id='addCharacter'>Submit</button>
+				</form>
+
+				<form class='mORf' id='hidden'>
+					<button id='male'>Male</button>
+					<button id='female'>Female</button>
+				</form>
+			</div>
+
+		</div>
+	</div>
+
 	<div class="header">
 		<h1>DUNGEON CRAWLER</h1>
+		<div class="nav">
+			<button id='newGame'>NEW GAME</button>
+			<button id='highScore'>HIGH SCORES</button>
+		</div>
+
 	</div>
-	
 
 
 	<div class="container">	
+		<span id="subtitle"></span>
 		<div class="vitals">
 			VITALS  
 			<div class="health">
@@ -26,12 +52,12 @@
 				<div id='magic'></div>
 			</div>
 
-		<div class="monster-vitals">
-			  <span>Name</span>
+		<div class="monster-vitals" id='hidden'>
+			  <!-- <span>Name</span>
 			<div class="health">
 				<span>HEALTH</span>
 				<div id='monster-health'></div>
-			</div>
+			</div> -->
 		</div>
 		
 		<div class="inventory">

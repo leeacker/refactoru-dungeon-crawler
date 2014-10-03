@@ -14,6 +14,71 @@ body {
 h1 {
 	font-size: 4em;
 }
+.nav {
+	top: 30px;
+	right: 66px;
+	position: fixed;
+	text-align: left;
+}
+button {
+	background-color: black;
+	color: white;
+	border: 3px solid WhiteSmoke;
+	padding: 10px;
+	right: 5px;
+	top: 5px;
+	display: block;
+	margin: 10px;
+}
+input {
+	background-color: black;
+	color: Chartreuse;
+	border: 3px solid Chartreuse;
+	padding: 10px;
+
+	display: block;
+	margin: auto;
+	margin-top: 75px;
+	width: 80%;
+
+}
+.form {
+	padding: 30px;
+}
+.form>span{
+	font-size: 2em;
+}
+.lightbox {
+	background-color: rgba(0,0,0,0.8);
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	color: white;
+}
+#hidden {
+	display: none;
+}
+#popup {
+	width: 700px;
+	height: 300px;
+	position: fixed;
+	background-color: black;
+	border: 5px dashed WhiteSmoke;
+	box-shadow: 10px 10px 10px black;
+	text-align: center;	
+	top: 40%;
+	left: 30%;
+
+}
+#randomize, #addCharacter {
+	display: inline-block;
+}
+
 .container {
 	background-color: Black;
 	width: 100%;
@@ -25,13 +90,18 @@ h1 {
 	bottom: 0;
 	position: fixed;
 	z-index: 0;
+	text-align: center;
+}
+#subtitle {
+	color: white;
+	margin-bottom: 10px;
 }
 #current-room {
 	width: 50%;
-	height: 90%;
+	height: 60%;
 	top: 250px;
 	left: 24%;
-	/*bottom: 25%;*/
+	/*bottom: 55%;*/
 	margin: 0px auto;
 	background-color: DarkRed;
 	border: 15px solid chocolate;
@@ -137,7 +207,8 @@ h1 {
 	/*right: 50%;*/
 	left: 47%;
 	top: 400px;
-	position: fixed;
+	position: relative;
+	border-radius: 50px;
 }
 .game-over {
 	width:80%;
@@ -149,4 +220,8 @@ h1 {
 }
 .templates {
 	display: none;
+}
+
+.monster-vitals>.health {
+	padding-top: 10px;
 }
