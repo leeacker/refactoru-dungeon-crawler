@@ -1,0 +1,152 @@
+body {
+	font-family: 'Press Start 2P', cursive;
+	background-color: Black;
+}
+.header {
+	background-color: DimGray;
+	text-align: center;
+	border-bottom: 4px solid DarkRed;
+	padding-top: 25px;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+}
+h1 {
+	font-size: 4em;
+}
+.container {
+	background-color: Black;
+	width: 100%;
+	height: 100%;
+	top: 200px;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	bottom: 0;
+	position: fixed;
+	z-index: 0;
+}
+#current-room {
+	width: 50%;
+	height: 90%;
+	top: 250px;
+	left: 24%;
+	/*bottom: 25%;*/
+	margin: 0px auto;
+	background-color: DarkRed;
+	border: 15px solid chocolate;
+	box-shadow: 10px 10px 15px black inset;
+	position: fixed;
+
+}
+.vitals {
+	width: 275px;
+	height: 100px;
+	top: 250px;
+	right: 30px;
+	position: fixed;
+	text-align: center;
+	padding: 10px;
+	border: 5px dashed WhiteSmoke;
+	color: WhiteSmoke;
+	z-index: 1;
+}
+
+.monster-vitals {
+	width: 275px;
+	height: 75px;
+	top: 450px;
+	right: 30px;
+	position: fixed;
+	text-align: center;
+	padding: 10px;
+	border: 5px dashed WhiteSmoke;
+	color: WhiteSmoke;
+	z-index: 1;
+}
+
+.inventory {
+	width: 275px;
+	height: 400px;
+	top: 250px;
+	left: 30px;
+	position: fixed;
+	text-align: center;
+	padding: 10px;
+	border: 5px dashed WhiteSmoke;
+	color: WhiteSmoke;
+} 
+
+.vitals>div, .monster-vitals>div {
+	font-size: .75em;
+
+}
+
+.magic, .health {
+	width: 270px;
+	right: 5px;
+	height: 20px;
+	text-align: left;
+	margin: 0;
+}
+.magic {
+	margin-top: 25px;
+}
+
+.health {
+	margin-top: 5px;
+}
+.magic>span, .health>span {
+	
+	display: inline;
+}
+
+#health {
+	width: 100%;
+	height: 100%;
+	margin: 2px;
+	border-radius: 20px;
+	background-color: Crimson;		
+}
+#monster-health {
+	width: 100%;
+	height: 100%;
+	margin: 2px;
+	border-radius: 20px;
+	background-color: Crimson;		
+}
+
+#magic {
+	width: 100%;
+	height: 100%;
+	margin: 2px;
+	border-radius: 20px;
+	background-color: Chartreuse;
+		
+}
+
+.current-player {
+	width: 100px;
+	/*right: 50%;*/
+	left: 47%;
+	top: 400px;
+	position: fixed;
+}
+.monster {
+	width: 100px;
+	/*right: 50%;*/
+	left: 47%;
+	top: 400px;
+	position: fixed;
+}
+.game-over {
+	width:80%;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	border: 3px solid WhiteSmoke;
+	box-shadow: 10px 10px 15px;
+}
+.templates {
+	display: none;
+}

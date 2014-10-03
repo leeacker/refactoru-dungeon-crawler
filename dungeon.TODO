@@ -1,0 +1,8 @@
+ ☐ Create world with players, rooms, items, monsters
+ ☐ create constructor for player
+ ☐ create constructor for item
+ ☐ create constructor for monsters
+
+
+ Future
+ ☐ Create constructors for different types of items that will refer back to the original item constructor
